@@ -10,22 +10,22 @@ public abstract class Service {
     public Service(){
     }
     public Service(String id,String tenDichVu,String dienTichSD,String chiPhiThue,String soNguoiTD,String kieuThue){
-    this.id=id;
-    this.tenDichVu=tenDichVu;
-    this.dienTichSD=dienTichSD;
-    this.chiPhiThue=chiPhiThue;
-    this.soNguoiTD =soNguoiTD;
-    this.kieuThue =kieuThue;
+        this.id=id;
+        this.tenDichVu=tenDichVu;
+        this.dienTichSD=dienTichSD;
+        this.chiPhiThue=chiPhiThue;
+        this.soNguoiTD =soNguoiTD;
+        this.kieuThue =kieuThue;
     }
 
     public String showInfor() {
         return
                 " Id = '" + id + '\'' +
-                ", Tên Dịch vụ = '" + tenDichVu + '\'' +
-                ", Diện tích sử dụng = '" + dienTichSD + '\'' +
-                ", Chi Phí Thuê = '" + chiPhiThue + '\'' +
-                ", Số Người Tối Đa = '" + soNguoiTD + '\'' +
-                ", Kiểu Thuê = '" + kieuThue + '\'';
+                        ", Tên Dịch vụ = '" + tenDichVu + '\'' +
+                        ", Diện tích sử dụng = '" + dienTichSD + '\'' +
+                        ", Chi Phí Thuê = '" + chiPhiThue + '\'' +
+                        ", Số Người Tối Đa = '" + soNguoiTD + '\'' +
+                        ", Kiểu Thuê = '" + kieuThue + '\'';
     }
 
     public String getId() {
