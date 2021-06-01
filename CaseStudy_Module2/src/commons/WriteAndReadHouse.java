@@ -118,6 +118,7 @@ public class WriteAndReadHouse {
                 bufferedWriter.append(COMMA_DELIMITER);
                 bufferedWriter.append(soTangH);
                 bufferedWriter.append(NEW_LINE_SEPARATOR);
+                System.out.println("Success!");
             }
         } catch (Exception e) {
             e.printStackTrace();

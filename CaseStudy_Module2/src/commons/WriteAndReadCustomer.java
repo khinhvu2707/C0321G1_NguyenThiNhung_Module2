@@ -54,11 +54,11 @@ public class WriteAndReadCustomer {
                 }
 
                 if (Pattern.compile("[F|f][E|e][M|m][A|a][L|l][E|e]").matcher(gender).matches() || Pattern.compile("[M|m][A|a][L|l][E|e]").matcher(gender).matches() || Pattern.compile("[U|u][N|n][K|k][N|n][O|o][W|w]}").matcher(gender).matches()) {
-                        gender.toLowerCase();
-                        str += gender.charAt(0);
-                        str.toUpperCase();
-                        for (int i = 1; i < gender.length(); i++) {
-                            str+=gender.charAt(i);
+                    gender.toLowerCase();
+                    str += gender.charAt(0);
+                    str.toUpperCase();
+                    for (int i = 1; i < gender.length(); i++) {
+                        str+=gender.charAt(i);
                     }
                     count++;
                 } else {
@@ -122,6 +122,7 @@ public class WriteAndReadCustomer {
                 bufferedWriter.append(COMMA_DELIMITER);
                 bufferedWriter.append(service);
                 bufferedWriter.append(NEW_LINE_SEPARATOR);
+                System.out.println("Success!");
             }
 
         } catch (Exception e) {

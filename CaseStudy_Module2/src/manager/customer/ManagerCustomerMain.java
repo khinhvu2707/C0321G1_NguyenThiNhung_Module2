@@ -32,6 +32,7 @@ public class ManagerCustomerMain {
                 case 4:
                     break;
                 case 5:
+                    SearchCustomer.searchCustomer();
                     count++;
                     break;
                 case 6:

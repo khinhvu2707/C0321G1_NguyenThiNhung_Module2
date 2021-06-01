@@ -7,12 +7,15 @@ import java.util.Comparator;
 public class SortName implements Comparator<Customer> {
     @Override
     public int compare(Customer o1, Customer o2) {
-        return o1.getName().compareTo(o2.getName());
+        String[] a1 = o1.getBirthday().split("/");
+        String[] a2 = o2.getBirthday().split("/");
+        int rs = o1.getName().compareTo(o2.getName());
+                for (int i = a1.length-1; i >0; i--) {
+        if (rs == 0) {
+            return a1[i].compareTo(a2[i]);
+        } else {
+            return rs;
+        }
+    }return rs;
     }
-//    rs = o1.getName().compareTo(o2.getName()
-//    if (rs == 0) {
-//     return  o1.getBirthday().compareTo(o2.getBirthday());
-//    } else {
-//     return rs;
-//    }
 }

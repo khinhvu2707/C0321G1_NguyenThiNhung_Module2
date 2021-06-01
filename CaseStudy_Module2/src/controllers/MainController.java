@@ -1,5 +1,6 @@
 package controllers;
 
+import manager.booking.BookingMain;
 import manager.customer.ManagerCustomerMain;
 import manager.service.ManagerServiceMain;
 import models.House;
@@ -22,10 +23,9 @@ public class MainController {
                     "4.\tEdit Services\n" +
                     "5.\tDelete Services\n" +
                     "6.\tManager Customer\n" +
-                    "7.\tShow Information of Customer\n" +
-                    "8.\tAdd New Booking\n" +
-                    "9.\tShow Information of Employee\n" +
-                    "10.\tExit\n");
+                    "7.\tBooking\n" +
+                    "8.\tShow Information of Employee\n" +
+                    "9.\tExit\n");
             Scanner scanner = new Scanner(System.in);
             int choose = Integer.parseInt(scanner.nextLine());
             switch (choose) {
@@ -48,12 +48,11 @@ public class MainController {
                     ManagerCustomerMain.ManagerCustomer();
                     break;
                 case 7:
+                    BookingMain.booking();
                     break;
                 case 8:
                     break;
                 case 9:
-                    break;
-                case 10:
                     count++;
                     break;
                 default:

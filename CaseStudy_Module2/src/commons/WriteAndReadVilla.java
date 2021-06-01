@@ -125,6 +125,7 @@ public class WriteAndReadVilla {
                 bufferedWriter.append(COMMA_DELIMITER);
                 bufferedWriter.append(soTang);
                 bufferedWriter.append(NEW_LINE_SEPARATOR);
+                System.out.println("Success!");
             }
 
         } catch (Exception e) {

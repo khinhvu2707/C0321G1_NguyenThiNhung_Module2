@@ -97,6 +97,7 @@ public class WriteAndReadRoom {
                 bufferedWriter.append(COMMA_DELIMITER);
                 bufferedWriter.append(dichVuMP);
                 bufferedWriter.append(NEW_LINE_SEPARATOR);
+                System.out.println("Success!");
             }
         } catch (Exception e) {
             e.printStackTrace();
