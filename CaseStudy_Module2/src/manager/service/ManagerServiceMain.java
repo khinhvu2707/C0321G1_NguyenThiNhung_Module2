@@ -1,5 +1,9 @@
 package manager.service;
 
+import manager.service.house.*;
+import manager.service.room.*;
+import manager.service.villa.*;
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -17,15 +21,15 @@ public class ManagerServiceMain {
             int choose = Integer.parseInt(scanner.nextLine());
             switch (choose) {
                 case 1:
-                    ManagerVilla.addVilla();
+                    AddVilla.addVilla();
                     count++;
                     break;
                 case 2:
-                    ManagerHouse.addHouse();
+                    AddHouse.addHouse();
                     count++;
                     break;
                 case 3:
-                    ManagerRoom.addRoom();
+                    AddRoom.addRoom();
                     count++;
                     break;
                 case 4:
@@ -49,13 +53,13 @@ public class ManagerServiceMain {
         int choose = Integer.parseInt(scanner.nextLine());
         switch (choose) {
             case 1:
-                ManagerVilla.searchVilla();
+                SearchVilla.searchVilla();
                 break;
             case 2:
-                ManagerHouse.searchHouse();
+                SearchHouse.searchHouse();
                 break;
             case 3:
-                ManagerRoom.searchRoom();
+                SearchRoom.searchRoom();
                 break;
             default:
                 System.out.println("There is no option");
@@ -71,13 +75,13 @@ public class ManagerServiceMain {
         int choose = Integer.parseInt(scanner.nextLine());
         switch (choose) {
             case 1:
-                ManagerVilla.editVilla();
+                EditVilla.editVilla();
                 break;
             case 2:
-                ManagerHouse.editHouse();
+                EditHouse.editHouse();
                 break;
             case 3:
-                ManagerRoom.editRoom();
+                EditRoom.editRoom();
                 break;
             default:
                 System.out.println("There is no option");
@@ -93,13 +97,13 @@ public class ManagerServiceMain {
         int choose = Integer.parseInt(scanner.nextLine());
         switch (choose) {
             case 1:
-                ManagerVilla.deteleVilla();
+                DeleteVilla.deteleVilla();
                 break;
             case 2:
-                ManagerHouse.deteleHouse();
+                DeleteHouse.deteleHouse();
                 break;
             case 3:
-                ManagerRoom.deteleRoom();
+                DeleteRoom.deteleRoom();
                 break;
             default:
                 System.out.println("There is no option");
@@ -123,15 +127,15 @@ public class ManagerServiceMain {
             int choose = Integer.parseInt(scanner.nextLine());
             switch (choose) {
                 case 1:
-                    ManagerVilla.showVilla();
+                    ShowVilla.showVilla();
                     count++;
                     break;
                 case 2:
-                    ManagerHouse.showHouse();
+                    ShowHouse.showHouse();
                     count++;
                     break;
                 case 3:
-                    ManagerRoom.showRoom();
+                    ShowRoom.showRoom();
                     count++;
                     break;
                 case 4:

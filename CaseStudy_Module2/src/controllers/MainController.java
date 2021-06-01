@@ -1,5 +1,6 @@
 package controllers;
 
+import manager.customer.ManagerCustomerMain;
 import manager.service.ManagerServiceMain;
 import models.House;
 import models.Room;
@@ -13,13 +14,14 @@ public class MainController {
     public static void displayMainMenu() throws IOException {
         int count = 0;
         while (count < 1) {
-            System.out.println("Please enter your choice : \n" +
-                    "1.\t Add New Services\n" +
+            System.out.println("------------------\n" +
+                    "Please enter your choice : \n" +
+                    "1.\tAdd New Services\n" +
                     "2.\tShow Services\n" +
                     "3.\tSearch Services\n" +
                     "4.\tEdit Services\n" +
                     "5.\tDelete Services\n" +
-                    "6.\tAdd New Customer\n" +
+                    "6.\tManager Customer\n" +
                     "7.\tShow Information of Customer\n" +
                     "8.\tAdd New Booking\n" +
                     "9.\tShow Information of Employee\n" +
@@ -43,6 +45,7 @@ public class MainController {
                     ManagerServiceMain.deleteServices();
                     break;
                 case 6:
+                    ManagerCustomerMain.ManagerCustomer();
                     break;
                 case 7:
                     break;
