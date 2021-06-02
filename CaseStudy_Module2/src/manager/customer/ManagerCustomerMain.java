@@ -26,10 +26,11 @@ public class ManagerCustomerMain {
                     count++;
                     break;
                 case 3:
-
+                    EditCustomer.editCustomer();
                     count++;
                     break;
                 case 4:
+                    DeleteCustomer.deteleCustomer();
                     break;
                 case 5:
                     SearchCustomer.searchCustomer();

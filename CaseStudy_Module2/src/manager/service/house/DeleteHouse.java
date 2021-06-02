@@ -2,7 +2,6 @@ package manager.service.house;
 
 import commons.WriteAndReadHouse;
 import models.House;
-
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;

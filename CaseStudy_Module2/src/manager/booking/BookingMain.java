@@ -16,7 +16,7 @@ public class BookingMain {
             int choose = Integer.parseInt(scanner.nextLine());
             switch (choose) {
                 case 1:
-                    WriteAndReadBooking.writeBooking();
+                    AddBooking.addNewBooking();
                     count++;
                     break;
                 case 2:

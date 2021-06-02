@@ -1,12 +1,12 @@
 package controllers;
 
+import manager.Employee.ManagerEmployeeMain;
 import manager.booking.BookingMain;
+import manager.cinema.CinemaMain;
 import manager.customer.ManagerCustomerMain;
-import manager.service.ManagerServiceMain;
-import models.House;
-import models.Room;
-import models.Villa;
-
+import manager.filingCabinets.FilingCabinets;
+import manager.service.ManageServiceMain;
+import manager.service.ManagerService;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -17,47 +17,39 @@ public class MainController {
         while (count < 1) {
             System.out.println("------------------\n" +
                     "Please enter your choice : \n" +
-                    "1.\tAdd New Services\n" +
-                    "2.\tShow Services\n" +
-                    "3.\tSearch Services\n" +
-                    "4.\tEdit Services\n" +
-                    "5.\tDelete Services\n" +
-                    "6.\tManager Customer\n" +
-                    "7.\tBooking\n" +
-                    "8.\tShow Information of Employee\n" +
-                    "9.\tExit\n");
+                    "1.\tManager Services\n" +
+                    "2.\tManager Customer\n" +
+                    "3.\tBooking\n" +
+                    "4.\tEmployee\n" +
+                    "5.\tCinema\n" +
+                    "6.\tFiling cabinets\n" +
+                    "7.\tExit\n");
             Scanner scanner = new Scanner(System.in);
             int choose = Integer.parseInt(scanner.nextLine());
             switch (choose) {
                 case 1:
-                    ManagerServiceMain.addNewServies();
+                    ManageServiceMain.managerService();
                     break;
                 case 2:
-                    ManagerServiceMain.showServices();
-                    break;
-                case 3:
-                    ManagerServiceMain.searchServices();
-                    break;
-                case 4:
-                    ManagerServiceMain.editServices();
-                    break;
-                case 5:
-                    ManagerServiceMain.deleteServices();
-                    break;
-                case 6:
                     ManagerCustomerMain.ManagerCustomer();
                     break;
-                case 7:
+                case 3:
                     BookingMain.booking();
                     break;
-                case 8:
+                case 4:
+                    ManagerEmployeeMain.Employee();
                     break;
-                case 9:
+                case 5:
+                    CinemaMain.managerCinema();
+                    break;
+                case 6:
+                    FilingCabinets.filingCabinets();
+                    break;
+                case 7:
                     count++;
                     break;
                 default:
                     System.out.println("There is no option");
-                    break;
             }
         }
     }

@@ -1,9 +1,6 @@
 package manager.booking;
 
-import commons.WriteAndReadCustomer;
-import commons.WriteAndReadHouse;
-import commons.WriteAndReadRoom;
-import commons.WriteAndReadVilla;
+import commons.*;
 import manager.service.house.ShowHouse;
 import manager.service.room.ShowRoom;
 import manager.service.villa.ShowVilla;
@@ -17,7 +14,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class AddBooking {
-        public static String addNewBooking() throws IOException {
+        public static void addNewBooking() throws IOException {
         String booking="";
         List<Customer> result;
         result = WriteAndReadCustomer.readCustomer();
@@ -136,6 +133,7 @@ public class AddBooking {
                     System.out.println("There is no option");
                     break;
             }
-        }return booking;
+        }
+            WriteAndReadBooking.writeBooking(booking);
     }
 }

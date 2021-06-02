@@ -2,7 +2,6 @@ package manager.service.room;
 
 import commons.WriteAndReadRoom;
 import models.Room;
-
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;

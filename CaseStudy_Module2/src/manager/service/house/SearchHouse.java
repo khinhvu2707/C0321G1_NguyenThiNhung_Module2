@@ -2,7 +2,6 @@ package manager.service.house;
 
 import commons.WriteAndReadHouse;
 import models.House;
-
 import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;

@@ -7,7 +7,7 @@ import manager.service.villa.*;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class ManagerServiceMain {
+public class ManagerService {
     public static void addNewServies() throws IOException {
         Scanner scanner = new Scanner(System.in);
         int count = 0;
@@ -40,7 +40,6 @@ public class ManagerServiceMain {
                 default:
                     count++;
                     System.out.println("There is no option");
-                    break;
             }
         }
     }
@@ -63,7 +62,6 @@ public class ManagerServiceMain {
                 break;
             default:
                 System.out.println("There is no option");
-                break;
         }
     }
     public static void editServices() throws IOException {
@@ -107,7 +105,6 @@ public class ManagerServiceMain {
                 break;
             default:
                 System.out.println("There is no option");
-                break;
         }
     }
 
@@ -139,14 +136,19 @@ public class ManagerServiceMain {
                     count++;
                     break;
                 case 4:
+                    SortVilla.sortVilla();
                     break;
                 case 5:
+                    SortHouse.sortHouse();
+                    break;
+                case 6:
+                    SortRoom.sortRoom();
+                    break;
+                case 7:
                     count++;
                     break;
                 default:
-                    count++;
                     System.out.println("There is no option");
-                    break;
             }
         }
 

@@ -1,7 +1,7 @@
-SVRO-1111,Room3,45.6,4567,7,Năm,Không
-SVRO-1112,Room1,45.6,456.44,6,Năm,Không có
-SVRO-1113,Room2,45.6,4567,7,Năm,Không
-SVRO-1122,Room1,45.6,456.44,6,Năm,Không
-SVRO-7711,Room4,45.6,4567,7,Năm,Không
-SVRO-1199,Room5,45.6,456.44,6,Năm,Không có gì hết
-SVRO-1234,Room7,45,34,5,Năm,Food
+SVRO-1000,Room1,45,567,5,Year,Food
+SVRO-1001,Room9,45,567,5,Year,Food
+SVRO-1002,Room3,45,567,5,Year,Food
+SVRO-1009,Room2,45,567,5,Year,Food
+SVRO-1004,Room6,45,567,5,Year,Food
+SVRO-1005,Room1,45,567,5,Year,Food
+SVRO-1234,Room7,45,34,2,Day,Car

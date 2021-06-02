@@ -1,7 +1,6 @@
 package manager.customer;
 
 import models.Customer;
-
 import java.util.Comparator;
 
 public class SortName implements Comparator<Customer> {

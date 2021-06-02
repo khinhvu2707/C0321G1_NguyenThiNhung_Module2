@@ -1,18 +1,15 @@
 package commons;
 
-import manager.booking.AddBooking;
-
 import java.io.*;
 
 public class WriteAndReadBooking {
     private static final String NEW_LINE_SEPARATOR = "\n";
 
-    public static void writeBooking() throws IOException {
+    public static void writeBooking(String args) throws IOException {
         FileWriter input = new FileWriter("D:\\C0321G1_NguyenThiNhung_Module2\\CaseStudy_Module2\\src\\data\\Booking.csv", true);
         BufferedWriter bufferedWriter = new BufferedWriter(input);
         try {
-            String booking = AddBooking.addNewBooking();
-            bufferedWriter.write(booking);
+            bufferedWriter.write(args);
             bufferedWriter.write(NEW_LINE_SEPARATOR);
         } catch (Exception e) {
             e.printStackTrace();

@@ -2,7 +2,6 @@ package manager.service.room;
 
 import commons.WriteAndReadRoom;
 import models.Room;
-
 import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
