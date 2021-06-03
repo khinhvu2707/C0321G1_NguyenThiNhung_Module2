@@ -16,7 +16,7 @@ public class SearchRoom {
         boolean check = true;
         for (int i = 0; i < result.size(); i++) {
             if (searchId.equals(result.get(i).getId())) {
-                System.out.println(result.get(i).showInfor());
+                result.get(i).showInfor();
                 check = false;
                 break;
             } else {

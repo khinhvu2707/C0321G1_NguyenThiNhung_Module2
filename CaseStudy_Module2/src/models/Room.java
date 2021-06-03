@@ -21,13 +21,16 @@ public class Room extends Service {
         this.dichVuMP = dichVuMP;
     }
 
+    @Override
+    public String toString() {
+        return "Room{" +
+                super.toString()+
+                "dichVuMP='" + dichVuMP + '\'' +
+                '}';
+    }
 
     @Override
-    public String showInfor() {
-
-        return " Room { " +
-                super.showInfor()+
-                ", Dịch vụ Miễn Phí Đi Kèm ='" + dichVuMP + '\'' +
-                '}';
+    public void showInfor() {
+        System.out.println(this.toString());
     }
 }

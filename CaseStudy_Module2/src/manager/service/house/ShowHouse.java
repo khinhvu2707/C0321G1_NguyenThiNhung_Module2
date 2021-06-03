@@ -10,7 +10,7 @@ public class ShowHouse {
         List<House> result;
         result = WriteAndReadHouse.readHouse();
         for (House house : result) {
-            System.out.println(house.showInfor());
+            house.showInfor();
         }
     }
 }

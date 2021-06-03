@@ -54,7 +54,7 @@ public class AddBooking {
                             if (svId.equals(resultVilla.get(i).getId())) {
                                 check = false;
                                 System.out.println("Dịch vụ bạn chọn là: ");
-                                System.out.println(resultVilla.get(i).showInfor());
+                                resultVilla.get(i).showInfor();
                                 booking += " ( id : " +resultVilla.get(i).getId() +" )";
                                 System.out.println("Success!");
                                 count++;
@@ -82,7 +82,7 @@ public class AddBooking {
                             if (svId.equals(resultHouse.get(i).getId())) {
                                 check = false;
                                 System.out.println("Dịch vụ bạn chọn là: ");
-                                System.out.println(resultHouse.get(i).showInfor());
+                                resultHouse.get(i).showInfor();
                                 booking += " ( id : " +resultHouse.get(i).getId() +" )";
                                 System.out.println("Success!");
                                 count++;
@@ -110,7 +110,7 @@ public class AddBooking {
                             if (svId.equals(resultRoom.get(i).getId())) {
                                 check = false;
                                 System.out.println("Dịch vụ bạn chọn là: ");
-                                System.out.println(resultRoom.get(i).showInfor());
+                                resultRoom.get(i).showInfor();
                                 booking += " ( id : " +resultRoom.get(i).getId() +" )";
                                 System.out.println("Success!");
                                 count++;

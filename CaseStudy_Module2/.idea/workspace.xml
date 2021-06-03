@@ -1,127 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e82aebab-8c6d-4004-879b-6db2cba82766" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/commons/WriteAndReadEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commons/WriteAndReadMovie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commons/WriteAndReadTickket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/Employee/AddEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/Employee/ManagerEmployeeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/Employee/ShowEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/cinema/AddNewMovie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/cinema/BuyTickket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/cinema/CinemaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/cinema/ListMovie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/cinema/ShowTickket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/filingCabinets/FilingCabinets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/service/ManageServiceMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/service/house/SortHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/service/house/SortNameH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/service/room/SortNameR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/service/room/SortRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/service/villa/SortNameV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/service/villa/SortVilla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Movie.java" afterDir="false" />
+    <list default="true" id="aa0bc0d9-0541-484d-9865-c7a75f414fb0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/commons/WriteAndReadBooking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/commons/WriteAndReadBooking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/commons/WriteAndReadCustomer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/commons/WriteAndReadCustomer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/commons/WriteAndReadHouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/commons/WriteAndReadHouse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/commons/WriteAndReadRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/commons/WriteAndReadRoom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/commons/WriteAndReadVilla.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/commons/WriteAndReadVilla.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/controllers/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/data/Booking.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/data/Booking.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/data/Customer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/data/Customer.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/data/House.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/data/House.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/data/Room.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/data/Room.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/data/Villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/data/Villa.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/booking/AddBooking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/booking/AddBooking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/booking/BookingMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/booking/BookingMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/customer/AddCustomer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/customer/AddCustomer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/customer/DeleteCustomer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/customer/DeleteCustomer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/customer/EditCustomer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/customer/EditCustomer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/customer/ManagerCustomerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/customer/ManagerCustomerMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/customer/ShowCustomer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/customer/ShowCustomer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/customer/SortName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/customer/SortName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/ManagerServiceMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/house/AddHouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/house/AddHouse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/house/DeleteHouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/house/DeleteHouse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/house/EditHouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/house/EditHouse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/house/SearchHouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/house/SearchHouse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/house/ShowHouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/house/ShowHouse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/room/AddRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/room/AddRoom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/room/DeleteRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/room/DeleteRoom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/room/EditRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/room/EditRoom.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/room/SearchRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/room/SearchRoom.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/room/ShowRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/room/ShowRoom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/villa/AddVilla.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy_Module2/manager/service/villa/AddVilla.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons/WriteAndReadBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commons/WriteAndReadBooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons/WriteAndReadCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commons/WriteAndReadCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons/WriteAndReadHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commons/WriteAndReadHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons/WriteAndReadRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commons/WriteAndReadRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons/WriteAndReadVilla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commons/WriteAndReadVilla.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Booking.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Booking.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Customer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Customer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/House.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/House.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Room.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Room.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Villa.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/manager/booking/AddBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/booking/AddBooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/booking/BookingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/booking/BookingMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/customer/AddCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/customer/AddCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/customer/DeleteCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/customer/DeleteCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/customer/EditCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/customer/EditCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/customer/ManagerCustomerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/customer/ManagerCustomerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/customer/ShowCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/customer/ShowCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/customer/SortName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/customer/SortName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/service/ManagerServiceMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/service/ManagerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/service/house/AddHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/service/house/AddHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/service/house/DeleteHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/service/house/DeleteHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/service/house/EditHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/service/house/EditHouse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/manager/service/house/SearchHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/service/house/SearchHouse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/manager/service/house/ShowHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/service/house/ShowHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/service/room/AddRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/service/room/AddRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/service/room/DeleteRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/service/room/DeleteRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/service/room/EditRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/service/room/EditRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manager/service/house/SortHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/service/house/SortHouse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/manager/service/room/SearchRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/service/room/SearchRoom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/manager/service/room/ShowRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/service/room/ShowRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/service/villa/AddVilla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/service/villa/AddVilla.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fsdfsdfsd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manager/service/room/SortRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/service/room/SortRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manager/service/villa/SearchVilla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/service/villa/SearchVilla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manager/service/villa/ShowVilla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/service/villa/ShowVilla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manager/service/villa/SortVilla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/service/villa/SortVilla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Villa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1tLybJeZ3gU5JQhnz3UFZJHZDqU" />
+  <component name="ProjectId" id="1tPyFJQThFIuRS8Hm4bnkQ3SuS0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -130,10 +42,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last.edited.regexp" value="" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -141,20 +51,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="FilingCabinets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="manager.filingCabinets.FilingCabinets" />
-      <module name="CaseStudy_Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="manager.filingCabinets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="views.Main" />
       <module name="CaseStudy_Module2" />
@@ -168,52 +65,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShowEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="manager.Employee.ShowEmployee" />
-      <module name="CaseStudy_Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="manager.Employee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShowTickket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="manager.cinema.ShowTickket" />
-      <module name="CaseStudy_Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="manager.cinema.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortVilla" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="manager.service.villa.SortVilla" />
-      <module name="CaseStudy_Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="manager.service.villa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FilingCabinets" />
-        <item itemvalue="Application.ShowTickket" />
-        <item itemvalue="Application.ShowEmployee" />
-        <item itemvalue="Application.SortVilla" />
       </list>
     </recent_temporary>
   </component>
@@ -222,58 +76,38 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e82aebab-8c6d-4004-879b-6db2cba82766" name="Default Changelist" comment="" />
-      <created>1622562733516</created>
+      <changelist id="aa0bc0d9-0541-484d-9865-c7a75f414fb0" name="Default Changelist" comment="" />
+      <created>1622684913196</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1622562733516</updated>
-      <workItem from="1622562736546" duration="6835000" />
-      <workItem from="1622569724846" duration="219000" />
-      <workItem from="1622596616805" duration="12796000" />
-      <workItem from="1622615311539" duration="17950000" />
-      <workItem from="1622635989827" duration="18235000" />
+      <updated>1622684913196</updated>
+      <workItem from="1622684916666" duration="2700000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1622624818047">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1622687241426">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1622624818047" />
-    <state width="1478" height="331" key="GridCell.Tab.0.bottom" timestamp="1622654373771">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1622687241426" />
+    <state width="1478" height="606" key="GridCell.Tab.0.bottom" timestamp="1622687627832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="331" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622654373771" />
-    <state width="1478" height="331" key="GridCell.Tab.0.center" timestamp="1622654373771">
+    <state width="1478" height="606" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622687627832" />
+    <state width="1478" height="606" key="GridCell.Tab.0.center" timestamp="1622687627832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="331" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622654373771" />
-    <state width="1478" height="331" key="GridCell.Tab.0.left" timestamp="1622654373771">
+    <state width="1478" height="606" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622687627832" />
+    <state width="1478" height="606" key="GridCell.Tab.0.left" timestamp="1622687627832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="331" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622654373771" />
-    <state width="1478" height="331" key="GridCell.Tab.0.right" timestamp="1622654373771">
+    <state width="1478" height="606" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622687627832" />
+    <state width="1478" height="606" key="GridCell.Tab.0.right" timestamp="1622687627832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="331" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622654373771" />
-    <state x="475" y="170" key="refactoring.ChangeSignatureDialog" timestamp="1622605130336">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="475" y="170" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1622605130336" />
+    <state width="1478" height="606" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622687627832" />
   </component>
 </project>

@@ -42,16 +42,18 @@ public class House extends Service{
         SoTang = soTang;
     }
 
+    @Override
+    public String toString() {
+        return "House{" +
+                super.toString()+
+                "tieuChuanPhong='" + tieuChuanPhong + '\'' +
+                ", tienNghiKhac='" + tienNghiKhac + '\'' +
+                ", SoTang='" + SoTang + '\'' +
+                '}';
+    }
 
     @Override
-    public String showInfor() {
-        return "House { " +
-                super.showInfor() +
-                ", Tiêu Chuẩn Phòng = '" + tieuChuanPhong + '\'' +
-                ", Tiện Nghi Khác = '" + tienNghiKhac + '\'' +
-                ", Số Tầng = '" + SoTang + '\'' +
-                '}';
-
-
+    public void showInfor() {
+        System.out.println(this.toString());
     }
 }

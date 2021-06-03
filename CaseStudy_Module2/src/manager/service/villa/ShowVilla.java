@@ -11,7 +11,7 @@ public class ShowVilla {
         List<Villa> result;
         result = WriteAndReadVilla.readVilla();
         for (Villa villa : result) {
-            System.out.println(villa.showInfor());
+            villa.showInfor();
         }
     }
 }

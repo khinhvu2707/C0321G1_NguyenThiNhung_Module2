@@ -16,7 +16,7 @@ public class SortVilla {
         TreeSet<String> villas = new TreeSet<>();
         for (int i = 0; i < result.size(); i++) {
             if(villas.add(result.get(i).getTenDichVu())){
-                System.out.println(result.get(i).showInfor());
+                result.get(i).showInfor();
             }
         }
     }

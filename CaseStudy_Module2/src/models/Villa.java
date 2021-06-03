@@ -8,6 +8,9 @@ public class Villa extends Service{
 
     public Villa() {
     }
+
+
+
     public Villa(String tieuChuanPhong,String tienNghiKhac,String SHoBoi,String soTang) {
         this.tieuChuanPhong=tieuChuanPhong;
         this.tienNghiKhac=tienNghiKhac;
@@ -56,13 +59,17 @@ public class Villa extends Service{
     }
 
     @Override
-    public String showInfor() {
-        return "Villa { " +
-                super.showInfor()+
-                ", Tiêu Chuẩn Phòng = '" + tieuChuanPhong + '\'' +
-                ", Tiện Nghi Khác = '" + tienNghiKhac + '\'' +
-                ", Diện Tích Hồ Bơi = '" + SHoBoi + '\'' +
-                ", Số Tầng = '" + SoTang + '\'' +
+    public String toString() {
+        return "Villa{" +
+                super.toString()+
+                "tieuChuanPhong='" + tieuChuanPhong + '\'' +
+                ", tienNghiKhac='" + tienNghiKhac + '\'' +
+                ", SHoBoi='" + SHoBoi + '\'' +
+                ", SoTang='" + SoTang + '\'' +
                 '}';
+    }
+    @Override
+    public void showInfor() {
+        System.out.println(this.toString());
     }
 }

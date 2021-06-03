@@ -17,7 +17,7 @@ public class SortRoom {
         TreeSet<String> strings = new TreeSet<>();
         for (int i = 0; i < result.size(); i++) {
             if(strings.add(result.get(i).getTenDichVu())){
-                System.out.println(result.get(i).showInfor());
+                result.get(i).showInfor();
             }
         }
     }
