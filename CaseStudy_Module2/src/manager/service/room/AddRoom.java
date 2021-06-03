@@ -1,8 +1,12 @@
 package manager.service.room;
 
+import commons.WriteAndReadHouse;
 import commons.WriteAndReadRoom;
+import models.House;
+import models.Room;
 
 import java.io.IOException;
+import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
@@ -67,9 +71,20 @@ public class AddRoom {
             } else {
                 System.out.println("Hãy nhập Dich vụ miễn phí đúng định dạng 'Massage' / 'Karaoke' /'Food' /'Drink' /'Car'");
             }
-            if (count == 7) {
-                WriteAndReadRoom.writeRoom(id, tenDichVu, dienTichSD, chiPhiThue, soNguoiTD, kieuThue, dichVuMP);
+            List<Room> result = WriteAndReadRoom.readRoom();
+            boolean check=true;
+            for (int i = 0; i < result.size(); i++) {
+                if (id.equals(result.get(i).getId())) {
+                    check = false;
+                    break;
+                }
             }
+            if(check && count==7) {
+                WriteAndReadRoom.writeRoom(id, tenDichVu, dienTichSD, chiPhiThue, soNguoiTD, kieuThue, dichVuMP);
+            }else {
+                System.out.println("Đã có id này!");
+            }
+
         }
     }
 }

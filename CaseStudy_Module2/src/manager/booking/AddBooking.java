@@ -14,22 +14,22 @@ import java.util.List;
 import java.util.Scanner;
 
 public class AddBooking {
-        public static void addNewBooking() throws IOException {
+    public static void addNewBooking() throws IOException {
         String booking="";
         List<Customer> result;
         result = WriteAndReadCustomer.readCustomer();
         int index = 1;
-            System.out.println("---- List Customer ---");
+        System.out.println("---- List Customer ---");
         for (Customer customer : result) {
             System.out.println(index++ + " . " + customer.showInfor());
         }
-            System.out.println("+++++++");
+        System.out.println("+++++++");
         System.out.println("Vui lòng nhập số thứ tự của bạn tương ứng với bảng trên");
         Scanner scanner = new Scanner(System.in);
         int id = Integer.parseInt(scanner.nextLine());
         System.out.println("Dịch vụ của bạn là: ");
         System.out.println("*** " +result.get(id - 1).getService() +" ***");
-            System.out.println("Nếu bạn không muốn booking dịch vụ này thì vui lòng sửa lại thông tin đăng kí! Cảm ơn !");
+        System.out.println("Nếu bạn không muốn booking dịch vụ này thì vui lòng sửa lại thông tin đăng kí! Cảm ơn !");
         String service = result.get(id - 1).getService();
         booking += " "+result.get(id - 1).showInfor();
         System.out.println("Vui lòng chọn add new booking tương ứng với dịch vụ của bạn: ");
@@ -135,6 +135,6 @@ public class AddBooking {
                     break;
             }
         }
-            WriteAndReadBooking.writeBooking(booking);
+        WriteAndReadBooking.writeBooking(booking);
     }
 }

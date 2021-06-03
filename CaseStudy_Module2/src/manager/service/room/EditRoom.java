@@ -14,53 +14,47 @@ public class EditRoom {
     public static void editRoom() throws IOException {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập id Room cần sửa: ");
-        String deleteId = scanner.nextLine();
+        String editId = scanner.nextLine();
         System.out.println("Bạn muốn sửa gì?\n" +
-                "1.Id\n" +
-                "2.Tên dịch vụ\n" +
-                "3.Diện tích sử dụng\n" +
-                "4.Chi phí thuê\n" +
-                "5.Số người tối đa\n" +
-                "6.Kiểu thuê\n" +
-                "7.Dịch vụ miễn phí\n");
-        int choose = Integer.parseInt(scanner.nextLine());
+                "1.Tên dịch vụ\n" +
+                "2.Diện tích sử dụng\n" +
+                "3.Chi phí thuê\n" +
+                "4.Số người tối đa\n" +
+                "5.Kiểu thuê\n" +
+                "6.Dịch vụ miễn phí\n");
+        String choose = scanner.nextLine();
         List<Room> result;
         result = WriteAndReadRoom.readRoom();
         boolean check = true;
         for (int i = 0; i < result.size(); i++) {
-            if (deleteId.equals(result.get(i).getId())) {
+            if (editId.equals(result.get(i).getId())) {
                 switch (choose) {
-                    case 1:
-                        System.out.println("Nhập id mới: ");
-                        String newId = scanner.nextLine();
-                        result.get(i).setId(newId);
-                        break;
-                    case 2:
+                    case "1":
                         System.out.println("Nhập tên dịch vụ mới: ");
                         String newTenDichVu = scanner.nextLine();
                         result.get(i).setTenDichVu(newTenDichVu);
                         break;
-                    case 3:
+                    case "2":
                         System.out.println("Nhập diện tích sử dụng mới: ");
                         String newDienTichSD = scanner.nextLine();
                         result.get(i).setDienTichSD(newDienTichSD);
                         break;
-                    case 4:
+                    case "3":
                         System.out.println("Nhập chi phí thuê mới: ");
                         String newChiPhiThue = scanner.nextLine();
                         result.get(i).setChiPhiThue(newChiPhiThue);
                         break;
-                    case 5:
+                    case "4":
                         System.out.println("Nhập số người tối đa mới: ");
                         String newSoNguoiTD = scanner.nextLine();
                         result.get(i).setSoNguoiTD(newSoNguoiTD);
                         break;
-                    case 6:
+                    case "5":
                         System.out.println("Nhập kiểu thuê mới: ");
                         String newKieuThue = scanner.nextLine();
                         result.get(i).setKieuThue(newKieuThue);
                         break;
-                    case 7:
+                    case "6":
                         System.out.println("Nhập dịch vụ miễn phí mới: ");
                         String newDichVuMP = scanner.nextLine();
                         result.get(i).setDichVuMP(newDichVuMP);

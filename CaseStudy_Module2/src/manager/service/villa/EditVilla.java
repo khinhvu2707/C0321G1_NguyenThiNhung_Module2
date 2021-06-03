@@ -35,9 +35,7 @@ public class EditVilla {
             if (deleteId.equals(result.get(i).getId())) {
                 switch (choose) {
                     case 1:
-                        System.out.println("Nhập id mới: ");
-                        String newId = scanner.nextLine();
-                        result.get(i).setId(newId);
+                        System.out.println("Id đã định,vui lòng không thay đổi! ");
                         break;
                     case 2:
                         System.out.println("Nhập tên dịch vụ mới: ");

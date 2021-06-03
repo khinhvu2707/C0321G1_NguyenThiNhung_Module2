@@ -1,5 +1,6 @@
 package controllers;
 
+import commons.FuromaException;
 import manager.Employee.ManagerEmployeeMain;
 import manager.booking.BookingMain;
 import manager.cinema.CinemaMain;
@@ -12,40 +13,40 @@ import java.util.Scanner;
 
 public class MainController {
 
-    public static void displayMainMenu() throws IOException {
+    public static void displayMainMenu() throws Exception {
         int count = 0;
         while (count < 1) {
-            System.out.println("------------------\n" +
+            System.out.println("--------- WELCOME TO FUROMA RESORT ---------\n" +
                     "Please enter your choice : \n" +
-                    "1.\tManager Services\n" +
-                    "2.\tManager Customer\n" +
+                    "1.\tServices\n" +
+                    "2.\tCustomer\n" +
                     "3.\tBooking\n" +
                     "4.\tEmployee\n" +
                     "5.\tCinema\n" +
                     "6.\tFiling cabinets\n" +
                     "7.\tExit\n");
             Scanner scanner = new Scanner(System.in);
-            int choose = Integer.parseInt(scanner.nextLine());
+            String  choose =scanner.nextLine();
             switch (choose) {
-                case 1:
+                case "1":
                     ManageServiceMain.managerService();
                     break;
-                case 2:
+                case "2":
                     ManagerCustomerMain.ManagerCustomer();
                     break;
-                case 3:
+                case "3":
                     BookingMain.booking();
                     break;
-                case 4:
+                case "4":
                     ManagerEmployeeMain.Employee();
                     break;
-                case 5:
+                case "5":
                     CinemaMain.managerCinema();
                     break;
-                case 6:
+                case "6":
                     FilingCabinets.filingCabinets();
                     break;
-                case 7:
+                case "7":
                     count++;
                     break;
                 default:

@@ -1,5 +1,6 @@
 package manager.service;
 
+import commons.FuromaException;
 import manager.service.house.*;
 import manager.service.room.*;
 import manager.service.villa.*;
@@ -18,23 +19,23 @@ public class ManagerService {
                     "3.\tAdd New Room\n" +
                     "4.\tBack to menu\n" +
                     "5.\tExit\n");
-            int choose = Integer.parseInt(scanner.nextLine());
+            String choose = scanner.nextLine();
             switch (choose) {
-                case 1:
+                case "1":
                     AddVilla.addVilla();
                     count++;
                     break;
-                case 2:
+                case "2":
                     AddHouse.addHouse();
                     count++;
                     break;
-                case 3:
+                case "3":
                     AddRoom.addRoom();
                     count++;
                     break;
-                case 4:
+                case "4":
                     break;
-                case 5:
+                case "5":
                     count++;
                     break;
                 default:
@@ -49,15 +50,15 @@ public class ManagerService {
                 "1.Search Villa\n" +
                 "2.Search House\n" +
                 "3.Search Room\n ");
-        int choose = Integer.parseInt(scanner.nextLine());
+        String choose = scanner.nextLine();
         switch (choose) {
-            case 1:
+            case "1":
                 SearchVilla.searchVilla();
                 break;
-            case 2:
+            case "2":
                 SearchHouse.searchHouse();
                 break;
-            case 3:
+            case "3":
                 SearchRoom.searchRoom();
                 break;
             default:
@@ -70,15 +71,15 @@ public class ManagerService {
                 "1.Edit Villa\n" +
                 "2.Edit House\n" +
                 "3.Edit Room\n ");
-        int choose = Integer.parseInt(scanner.nextLine());
+        String choose = scanner.nextLine();
         switch (choose) {
-            case 1:
+            case "1":
                 EditVilla.editVilla();
                 break;
-            case 2:
+            case "2":
                 EditHouse.editHouse();
                 break;
-            case 3:
+            case "3":
                 EditRoom.editRoom();
                 break;
             default:
@@ -92,15 +93,15 @@ public class ManagerService {
                 "1.Delete Villa\n" +
                 "2.Delete House\n" +
                 "3.Delete Room\n ");
-        int choose = Integer.parseInt(scanner.nextLine());
+     String choose = scanner.nextLine();
         switch (choose) {
-            case 1:
+            case "1":
                 DeleteVilla.deteleVilla();
                 break;
-            case 2:
+            case "2":
                 DeleteHouse.deteleHouse();
                 break;
-            case 3:
+            case "3":
                 DeleteRoom.deteleRoom();
                 break;
             default:
@@ -119,32 +120,31 @@ public class ManagerService {
                     "4.\tShow All Name Villa Not Duplicate\n" +
                     "5.\tShow All Name House Not Duplicate\n" +
                     "6.\tShow All Name Name Not Duplicate\n" +
-                    "7.\tBack to menu\n" +
-                    "8.\tExit\n");
-            int choose = Integer.parseInt(scanner.nextLine());
+                    "7.\tBack to menu\n" );
+            String choose = scanner.nextLine();
             switch (choose) {
-                case 1:
+                case "1":
                     ShowVilla.showVilla();
                     count++;
                     break;
-                case 2:
+                case "2":
                     ShowHouse.showHouse();
                     count++;
                     break;
-                case 3:
+                case "3":
                     ShowRoom.showRoom();
                     count++;
                     break;
-                case 4:
+                case "4":
                     SortVilla.sortVilla();
                     break;
-                case 5:
+                case "5":
                     SortHouse.sortHouse();
                     break;
-                case 6:
+                case "6":
                     SortRoom.sortRoom();
                     break;
-                case 7:
+                case "7":
                     count++;
                     break;
                 default:

@@ -23,6 +23,8 @@ public class FilingCabinets {
         for (int i = length-1; i >0; i--) {
             if(string.equals(stack.pop().getName())){
                 System.out.println(result.get(i).toString());
+            }else {
+                System.out.println("Không có nhân viên này!");
             }
         }
     }

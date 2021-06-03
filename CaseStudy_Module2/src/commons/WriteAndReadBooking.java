@@ -1,6 +1,8 @@
 package commons;
 
+
 import java.io.*;
+
 
 public class WriteAndReadBooking {
     private static final String NEW_LINE_SEPARATOR = "\n";
@@ -30,8 +32,6 @@ public class WriteAndReadBooking {
                     System.out.println(index + " . " + line);
                     index++;
                 }
-
-
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
@@ -39,5 +39,6 @@ public class WriteAndReadBooking {
             ouput.close();
         }
     }
+
 }
 

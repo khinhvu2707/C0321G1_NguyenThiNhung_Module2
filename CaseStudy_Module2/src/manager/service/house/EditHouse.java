@@ -1,6 +1,8 @@
 package manager.service.house;
 
+import commons.WriteAndReadCustomer;
 import commons.WriteAndReadHouse;
+import models.Customer;
 import models.House;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -26,54 +28,52 @@ public class EditHouse {
                 "7.Tiêu chuẩn phòng\n" +
                 "8.Tiện nghi khác\n" +
                 "9.Số tầng\n");
-        int choose = Integer.parseInt(scanner.nextLine());
+        String choose = scanner.nextLine();
         List<House> result;
         result = WriteAndReadHouse.readHouse();
         boolean check = true;
         for (int i = 0; i < result.size(); i++) {
             if (deleteId.equals(result.get(i).getId())) {
                 switch (choose) {
-                    case 1:
-                        System.out.println("Nhập id mới: ");
-                        String newId = scanner.nextLine();
-                        result.get(i).setId(newId);
+                    case "1":
+                        System.out.println("id đã định,vui lòng không thay đổi! ");
                         break;
-                    case 2:
+                    case "2":
                         System.out.println("Nhập tên dịch vụ mới: ");
                         String newTenDichVu = scanner.nextLine();
                         result.get(i).setTenDichVu(newTenDichVu);
                         break;
-                    case 3:
+                    case "3":
                         System.out.println("Nhập diện tích sử dụng mới: ");
                         String newDienTichSD = scanner.nextLine();
                         result.get(i).setDienTichSD(newDienTichSD);
                         break;
-                    case 4:
+                    case "4":
                         System.out.println("Nhập chi phí thuê mới: ");
                         String newChiPhiThue = scanner.nextLine();
                         result.get(i).setChiPhiThue(newChiPhiThue);
                         break;
-                    case 5:
+                    case "5":
                         System.out.println("Nhập số người tối đa mới: ");
                         String newSoNguoiTD = scanner.nextLine();
                         result.get(i).setSoNguoiTD(newSoNguoiTD);
                         break;
-                    case 6:
+                    case "6":
                         System.out.println("Nhập kiểu thuê mới: ");
                         String newKieuThue = scanner.nextLine();
                         result.get(i).setKieuThue(newKieuThue);
                         break;
-                    case 7:
+                    case "7":
                         System.out.println("Nhập tiêu chuẩn phòng mới: ");
                         String newTieuChuanPhong = scanner.nextLine();
                         result.get(i).setTieuChuanPhong(newTieuChuanPhong);
                         break;
-                    case 8:
+                    case "8":
                         System.out.println("Nhập tiện nghi khác mới: ");
                         String newTienNghiKhac = scanner.nextLine();
                         result.get(i).setTienNghiKhac(newTienNghiKhac);
                         break;
-                    case 9:
+                    case "9":
                         System.out.println("Nhập số tầng mới: ");
                         String newSoTang = scanner.nextLine();
                         result.get(i).setSoTang(newSoTang);
@@ -118,8 +118,10 @@ public class EditHouse {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
     }
-
 }
+
+
+
+
+

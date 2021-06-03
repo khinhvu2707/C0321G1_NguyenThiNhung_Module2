@@ -1,8 +1,12 @@
 package manager.service.villa;
 
+import commons.WriteAndReadHouse;
 import commons.WriteAndReadVilla;
+import models.House;
+import models.Villa;
 
 import java.io.IOException;
+import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
@@ -86,11 +90,21 @@ public class AddVilla {
             } else {
                 System.out.println("Hãy nhập số tầng là 1 số nguyên >0");
             }
-
-
-            if (count == 10) {
-                WriteAndReadVilla.writeVilla(id, tenDichVu, dienTichSD, chiPhiThue, soNguoiTD, kieuThue, tieuChuanPhong, tienNghiKhac, dienTichHoBoi, soTang);
+            List<Villa> result = WriteAndReadVilla.readVilla();
+            boolean check=true;
+            for (int i = 0; i < result.size(); i++) {
+                if (id.equals(result.get(i).getId())) {
+                    check = false;
+                    break;
+                }
             }
+            if(check & count ==10) {
+                WriteAndReadVilla.writeVilla(id, tenDichVu, dienTichSD, chiPhiThue, soNguoiTD, kieuThue, tieuChuanPhong, tienNghiKhac, dienTichHoBoi, soTang);
+
+            }else {
+                System.out.println("Đã có id này!");
+            }
+
         }
     }
 }
