@@ -49,11 +49,11 @@ public class Movie {
 
     @Override
     public String toString() {
-        return "Movie{" +
-                "Name='" + name + '\'' +
-                ", Category='" + category + '\'' +
-                ", Time='" + time + '\'' +
-                ", Tickket='" + tickket + '\'' +
-                '}';
+        return " * * * * * Movie { " +
+                "Tên phim : '" + name + '\'' +
+                ", Thể loại - Nội dung : '" + category + '\'' +
+                ", Thời gian chiếu : '" + time + '\'' +
+                ", Số lượng vé : '" + tickket + '\'' +
+                " } * * * * * ";
     }
 }

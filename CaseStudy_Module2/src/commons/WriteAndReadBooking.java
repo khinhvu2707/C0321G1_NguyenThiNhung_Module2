@@ -24,9 +24,14 @@ public class WriteAndReadBooking {
         BufferedReader bufferedReader = new BufferedReader(ouput);
         try {
             String line;
-            while ((line = bufferedReader.readLine()) != null) {
-                System.out.println(line);
-            }
+            int index=1;
+
+                while ((line = bufferedReader.readLine()) != null) {
+                    System.out.println(index + " . " + line);
+                    index++;
+                }
+
+
         } catch (IOException e) {
             e.printStackTrace();
         } finally {

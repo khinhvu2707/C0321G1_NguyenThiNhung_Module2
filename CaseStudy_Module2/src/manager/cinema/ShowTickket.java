@@ -50,11 +50,9 @@ public class ShowTickket {
         }
         int length = queue1.size();
         for (int i = 0; i < length; i++) {
-            System.out.println("***Chỗ ngồi số : " + (i + 1) + " của Khách hàng:");
-            System.out.println(queue1.remove());
+            System.out.println("***Chỗ ngồi số : " + (i + 1) + " của Khách hàng : " +queue1.remove());
 
         }
-
         System.out.println("--oOo-- Phim " + nameMovie[1] + "--oOo--");
         for (int i = 0; i < nameBuyMovie.length; i++) {
             if (nameBuyMovie[i].equals(nameMovie[1])) {
@@ -63,8 +61,7 @@ public class ShowTickket {
         }
         int length2 = queue2.size();
         for (int i = 0; i < length2; i++) {
-            System.out.println("***Chỗ ngồi số : " + (i + 1) + " của Khách hàng:");
-            System.out.println(queue2.remove());
+            System.out.println("***Chỗ ngồi số : " + (i + 1) + " của Khách hàng : " +queue2.remove());
 
         }
         System.out.println("--oOo-- Phim " + nameMovie[2] + "--oOo--");
@@ -75,8 +72,7 @@ public class ShowTickket {
         }
         int length3 = queue3.size();
         for (int i = 0; i < length3; i++) {
-            System.out.println("***Chỗ ngồi số : " + (i + 1) + " của Khách hàng:");
-            System.out.println(queue3.remove());
+            System.out.println("***Chỗ ngồi số : " + (i + 1) + " của Khách hàng : " + queue3.remove());
 
         }
         System.out.println("--oOo-- Phim " + nameMovie[3] + "--oOo--");
@@ -87,8 +83,7 @@ public class ShowTickket {
         }
         int length4 = queue4.size();
         for (int i = 0; i < length4; i++) {
-            System.out.println("***Chỗ ngồi số : " + (i + 1) + " của Khách hàng:");
-            System.out.println(queue4.remove());
+            System.out.println("***Chỗ ngồi số : " + (i + 1) + " của Khách hàng : " +queue4.remove());
 
         }
         System.out.println("--oOo-- Phim " + nameMovie[4] + "--oOo--");
@@ -99,8 +94,8 @@ public class ShowTickket {
         }
         int length5 = queue5.size();
         for (int i = 0; i < length5; i++) {
-            System.out.println("***Chỗ ngồi số : " + (i + 1) + " của Khách hàng:");
-            System.out.println(queue5.remove());
+            System.out.println("***Chỗ ngồi số : " + (i + 1) + " của Khách hàng : " +queue5.remove());
+
 
         }
     }

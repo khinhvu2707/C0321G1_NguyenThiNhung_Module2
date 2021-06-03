@@ -50,7 +50,7 @@ public class AddNewMovie {
                 if (resultMovie.size() != 5) {
                     WriteAndReadMovie.writeMovie(name, category, time, tickket);
                 } else {
-                    System.out.println("Đã quá nhiều fiml!");
+                    System.out.println("Chỉ được tối đa 5 phim trong hệ thống!");
                 }
             }
         }

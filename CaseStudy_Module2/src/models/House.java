@@ -44,11 +44,11 @@ public class House extends Service{
 
     @Override
     public String toString() {
-        return "House{" +
+        return " ** House { " +
                 super.toString()+
-                "tieuChuanPhong='" + tieuChuanPhong + '\'' +
-                ", tienNghiKhac='" + tienNghiKhac + '\'' +
-                ", SoTang='" + SoTang + '\'' +
+                " Tiêu chuẩn phòng : '" + tieuChuanPhong + '\'' +
+                ", Tiện nghi khác : '" + tienNghiKhac + '\'' +
+                ", Số tầng : '" + SoTang + '\'' +
                 '}';
     }
 

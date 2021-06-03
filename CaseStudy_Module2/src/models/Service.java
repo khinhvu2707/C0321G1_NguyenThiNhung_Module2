@@ -70,12 +70,11 @@ public abstract class Service {
 
     @Override
     public String toString() {
-        return " id='" + id + '\'' +
-                ", tenDichVu='" + tenDichVu + '\'' +
-                ", dienTichSD='" + dienTichSD + '\'' +
-                ", chiPhiThue='" + chiPhiThue + '\'' +
-                ", soNguoiTD='" + soNguoiTD + '\'' +
-                ", kieuThue='" + kieuThue + '\'' +
-                '}';
+        return " id : '" + id + '\'' +
+                ", Tên dịch vụ : '" + tenDichVu + '\'' +
+                ", Diện tích sử dụng : '" + dienTichSD + '\'' +
+                ", Chi phí thuê : '" + chiPhiThue + '\'' +
+                ", Số người tối đa : '" + soNguoiTD + '\'' +
+                ", Kiểu thuê : '" + kieuThue + '\'' ;
     }
 }

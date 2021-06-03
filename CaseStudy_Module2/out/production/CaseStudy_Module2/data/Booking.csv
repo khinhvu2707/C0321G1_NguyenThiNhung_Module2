@@ -1,2 +1,2 @@
-Customer A Nhi : Service Villa ( id : SVVL-1006 )
-Customer Lala : Service Room ( id : SVRO-1004 )
+Customer Customer {  Name : 'Lala', Birthday : '12/07/1998', Gender : 'Female', CMND : '111 111 111', Telephone : '0123456789', Email : 'lala@gmail.com', Level : 'Silver', Address : 'Hue', Service : 'Room'} { Booking : * Room{ id : 'SVRO-1000', Tên dịch vụ : 'Room1', Diện tích sử dụng : '45', Chi phí thuê : '567', Số người tối đa : '5', Kiểu thuê : 'Year' Dịch vụ miễn phí ='Food'} }
+Customer Customer {  Name : 'Tuyết', Birthday : '27/07/1999', Gender : 'Female', CMND : '143 156 678', Telephone : '0987654321', Email : 'Yu@gmail.com', Level : 'Diamond', Address : 'Cantho', Service : 'House'} { Booking :  ** House {  id : 'SVHO-1004', Tên dịch vụ : 'House2', Diện tích sử dụng : '34', Chi phí thuê : '56', Số người tối đa : '2', Kiểu thuê : 'Day' Tiêu chuẩn phòng : 'Tốt5sao', Tiện nghi khác : 'Food', Số tầng : '8'} }

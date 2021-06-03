@@ -60,12 +60,12 @@ public class Villa extends Service{
 
     @Override
     public String toString() {
-        return "Villa{" +
+        return " *** Villa { " +
                 super.toString()+
-                "tieuChuanPhong='" + tieuChuanPhong + '\'' +
-                ", tienNghiKhac='" + tienNghiKhac + '\'' +
-                ", SHoBoi='" + SHoBoi + '\'' +
-                ", SoTang='" + SoTang + '\'' +
+                " Tiêu chuẩn phòng : '" + tieuChuanPhong + '\'' +
+                ", Tiện Nghi khác : '" + tienNghiKhac + '\'' +
+                ", Diện tích hồ bơi : '" + SHoBoi + '\'' +
+                ", Số tầng : '" + SoTang + '\'' +
                 '}';
     }
     @Override

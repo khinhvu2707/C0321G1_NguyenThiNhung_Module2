@@ -23,9 +23,9 @@ public class Room extends Service {
 
     @Override
     public String toString() {
-        return "Room{" +
+        return "* Room{" +
                 super.toString()+
-                "dichVuMP='" + dichVuMP + '\'' +
+                " Dịch vụ miễn phí ='" + dichVuMP + '\'' +
                 '}';
     }
 

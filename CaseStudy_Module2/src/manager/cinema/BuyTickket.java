@@ -54,12 +54,12 @@ public class BuyTickket {
                         } else {
                         }
                     }
-                    System.out.println(count);
 //
                     if (count <= Integer.parseInt(resultMovie.get(idMovie - 1).getTickket())) {
                         movie1 += resultMovie.get(idMovie - 1).getName();
                         WriteAndReadTickket.writeTickket(movie1);
-                        System.out.println("Chúc mừng bạn đã mua vé thành công!Nhấn phím 3 để xem số ghế của bạn!Cảm ơn!");
+                        System.out.println("Chúc mừng bạn đã mua vé thành công!");
+                        System.out.println(" Số ghế của bạn là : " +count);
                     } else {
                         System.out.println("Vé đã bán hết!Chúc bạn may mắn lần sau!");
                     }

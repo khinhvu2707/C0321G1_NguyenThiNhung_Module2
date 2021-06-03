@@ -29,8 +29,9 @@ public class AddBooking {
         int id = Integer.parseInt(scanner.nextLine());
         System.out.println("Dịch vụ của bạn là: ");
         System.out.println("*** " +result.get(id - 1).getService() +" ***");
+            System.out.println("Nếu bạn không muốn booking dịch vụ này thì vui lòng sửa lại thông tin đăng kí! Cảm ơn !");
         String service = result.get(id - 1).getService();
-        booking += "Customer "+result.get(id - 1).getName() + " : Service " +result.get(id - 1).getService();
+        booking += " "+result.get(id - 1).showInfor();
         System.out.println("Vui lòng chọn add new booking tương ứng với dịch vụ của bạn: ");
 
         int count = 0;
@@ -55,7 +56,7 @@ public class AddBooking {
                                 check = false;
                                 System.out.println("Dịch vụ bạn chọn là: ");
                                 resultVilla.get(i).showInfor();
-                                booking += " ( id : " +resultVilla.get(i).getId() +" )";
+                                booking += " { Booking : "+ resultVilla.get(i).toString() +" }";
                                 System.out.println("Success!");
                                 count++;
                                 break;
@@ -83,7 +84,7 @@ public class AddBooking {
                                 check = false;
                                 System.out.println("Dịch vụ bạn chọn là: ");
                                 resultHouse.get(i).showInfor();
-                                booking += " ( id : " +resultHouse.get(i).getId() +" )";
+                                booking += " { Booking : " +resultHouse.get(i).toString() +" }";
                                 System.out.println("Success!");
                                 count++;
                                 break;
@@ -111,7 +112,7 @@ public class AddBooking {
                                 check = false;
                                 System.out.println("Dịch vụ bạn chọn là: ");
                                 resultRoom.get(i).showInfor();
-                                booking += " ( id : " +resultRoom.get(i).getId() +" )";
+                                booking += " { Booking : " +resultRoom.get(i).toString() +" }";
                                 System.out.println("Success!");
                                 count++;
                                 break;

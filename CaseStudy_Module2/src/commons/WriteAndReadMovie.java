@@ -41,7 +41,7 @@ public class WriteAndReadMovie {
                 BufferedReader bufferedReader = new BufferedReader(fileReader);
                 String line;
                 while ((line = bufferedReader.readLine()) != null) {
-                    String[] strings = line.split(",");
+                    String[] strings = line.split("_");
                     Movie movie =new Movie(strings[0], strings[1], strings[2],strings[3]);
                     result.add(movie);
                 }
